@@ -1,0 +1,35 @@
+div {
+    border: 2px solid black;
+    padding: 25px;
+    margin: 10px;
+}
+
+#gg {
+    background-image: url("../img/xin.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+#hi {
+    background-image: url("../img/xiao.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto 100px;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(224, 224, 255);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(252, 111, 222);
+}

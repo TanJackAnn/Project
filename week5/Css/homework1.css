@@ -1,0 +1,57 @@
+body {
+    font-family: 'Mukta';
+    padding: 0px;
+    margin: 0px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+}
+
+#textpanel {
+    text-align: left;
+    width: 400px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    margin-right: 50px;
+    flex: 1;
+
+}
+
+.texttitle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.text {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#image {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    flex: 1;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
