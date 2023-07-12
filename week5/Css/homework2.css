@@ -12,7 +12,7 @@ body {
     border-right: 5px solid black;
     padding: 40px;
     font-size: 40px;
-font-weight: bold;
+    font-weight: bold;
 
 }
 
@@ -30,7 +30,7 @@ font-weight: bold;
     justify-content: center;
     grid-template-columns: auto auto auto;
     padding: 80px 100px;
-    
+
 }
 
 
@@ -44,7 +44,7 @@ font-weight: bold;
     margin-right: 50px;
 }
 
-ul{
+ul {
     margin-top: 40px;
 }
 
@@ -53,7 +53,7 @@ li {
     margin-top: 10px;
 }
 
-p{
+p {
     padding: 0;
     margin: 0;
 }
