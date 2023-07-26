@@ -35,7 +35,7 @@ p {
 
 .top-image {
   margin-top: 30px;
-  height: 80%;
+  height: 50%;
   width: 100%;
   object-fit: cover;
 }
@@ -175,8 +175,9 @@ h1 {
 }
 
 .me-img {
-  padding: 80px;
-  width: 70%;
+  padding: 30px;
+  width: 80%;
+  margin-left: 50px;
 
 }
 
