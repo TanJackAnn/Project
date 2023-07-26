@@ -1,0 +1,292 @@
+body {
+  background-color: rgb(204, 255, 246);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-size: cover;
+  font-size: 20px;
+  padding: 5px;
+  margin: 0px;
+}
+
+p {
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+
+.icon {
+  width: 40px;
+  text-align: left;
+}
+
+.menu-list {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.menu-list>a {
+  text-decoration: none;
+}
+
+.top-image {
+  margin-top: 30px;
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.intro {
+  background-color: #78c1f3;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+  margin-top: 40px;
+
+}
+
+.intro-part {
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  color: darkblue;
+}
+
+.cake2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 20px;
+  border-bottom: 2px solid black;
+}
+
+.picture-part {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.img-me {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.img-snack1 {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.sub-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-snack2 {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.art-part {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+.art-bold {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.art-text {
+  font-size: 20px;
+  margin: 30px 10px;
+  color: darkblue;
+}
+
+.cake3 {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.img-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+.footer {
+  background-color: #78c1f3;
+  padding: 10px;
+  text-align: right;
+  margin-top: 30px;
+}
+
+.footer-img {
+  width: 30px;
+}
+
+.about-me {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 20px;
+  color: darkblue;
+}
+
+.about-text {
+  margin-top: 10px;
+  font-size: 20px;
+  color: darkblue;
+}
+
+.line {
+  margin: 20px 0px;
+  border-top: 2px solid black;
+}
+
+.about-blue {
+  font-size: 25px;
+  color: blue;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.me-img {
+  padding: 80px;
+  width: 70%;
+
+}
+
+.more-button {
+  color: blue;
+  background-color: lightblue;
+  height: 30px;
+  border: none;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.receipt-part {
+  margin: 20px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.receipt-item {
+  text-align: center;
+  font-size: 20px;
+}
+
+.receipt-img {
+  width: 100%;
+}
+
+.favorite {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+  padding: 30px;
+}
+
+.favorite-img {
+  width: 280px;
+  height: 150px;
+  text-align: center;
+  object-fit: cover;
+}
+
+.favorite-text {
+  margin-top: 30px;
+}
+
+.bg-blue {
+  background-color: #78c1f3;
+}
+
+.blog-part {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 20px;
+  color: darkblue;
+}
+
+.blog-img {
+  padding: 20px;
+  width: 70%;
+  margin: 20px;
+}
+
+.blog-blue {
+  color: blue;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    font-size: 16px;
+  }
+
+  .about-text {
+    font-size: 12px;
+  }
+
+  .about-blue {
+    font-size: 12px;
+  }
+
+  .more-button {
+    height: 25px;
+    font-size: 12px;
+  }
+
+  .receipt-item {
+    font-size: 12px;
+  }
+
+  .favorite {
+    grid-template-columns: 1fr;
+  }
+
+  .favorite-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .favorite-text {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  .blog-part {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-blue {
+    font-size: 12px;
+  }
+}
